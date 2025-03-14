@@ -2,7 +2,7 @@
 
 ## 项目简介
 
-TEN_JD_SCAN 是一个用于接码和打码的工具，支持自动化扫描验证码。
+某基某动自动登录拿key
 
 - **接码平台**：[椰子接码](http://h5.yezi66.net:90/)
 - **打码平台**：[TT OCR](https://www.ttocr.com/)
@@ -16,6 +16,7 @@ SF-Login-key/           # 根目录
 ├── SF_task.py          # 打码平台版本（推荐，0.01 元/次）
 ├── SF_task_model.py    # 自己打码版本（能用，但效率较低）
 ├── model.onnx          # 预训练的 ONNX 模型
+├── secret.key          # 拿到的KEY
 └── README.md           # 项目说明文档
 ```
 
