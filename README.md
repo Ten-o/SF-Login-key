@@ -1,4 +1,4 @@
-# TEN_JD_SCAN
+# SF-Login-key
 
 ## 项目简介
 
@@ -12,9 +12,9 @@ TEN_JD_SCAN 是一个用于接码和打码的工具，支持自动化扫描验�
 ## 目录结构
 
 ```bash
-TEN_JD_SCAN/                # 根目录
+SF-Login-key/           # 根目录
 ├── SF_task.py          # 打码平台版本（推荐，0.01 元/次）
-├── SF_task_model.py     # 自己打码版本（能用，但效率较低）
+├── SF_task_model.py    # 自己打码版本（能用，但效率较低）
 ├── model.onnx          # 预训练的 ONNX 模型
 └── README.md           # 项目说明文档
 ```
