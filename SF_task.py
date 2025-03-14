@@ -10,6 +10,7 @@ import sys
 if sys.platform == "win32":
     asyncio.set_event_loop_policy(asyncio.WindowsSelectorEventLoopPolicy())
 
+appkey = ''
 
 class Phone_SMS:
     def __init__(self):
@@ -286,7 +287,7 @@ class siliconflow:
 
     async def main(self):
         req = requests.post('http://api.ttocr.com/api/recognize', data={
-            'appkey': '',
+            'appkey': appkey,
             'gt': '592ad182314270f0c1442d9aa82d3ac2',
             'host': 'gcaptcha4.geetest.com',
             'referer': 'https://account.siliconflow.cn/login?redirect=https%3A%2F%2Fcloud.siliconflow.cn%2F%3F',
@@ -297,7 +298,7 @@ class siliconflow:
             print('等待打码平台返回结果.....')
             while True:
                 resp = requests.post('http://api.ttocr.com/api/results', data={
-                    'appkey': '87e595d254dbab5ce544cb9fbc9d3d88',
+                    'appkey': appkey,
                     'resultid': resultid
                 })
                 resp = resp.json()
