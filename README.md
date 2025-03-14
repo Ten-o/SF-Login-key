@@ -25,8 +25,10 @@ SF-Login-key/           # 根目录
 ## 使用说明
 
 ### 1. 运行打码平台版本（推荐）
+
 配置打码平台的appkey
-配件接码平台 username 和 password
+
+配置接码平台 username 和 password
 
 ```bash
 python SF_task.py
