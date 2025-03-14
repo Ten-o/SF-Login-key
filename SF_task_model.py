@@ -180,7 +180,6 @@ class siliconflow:
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-platform": "\"macOS\""
         }
-        self.proxy = 'http://ten:ten-996633@61.177.202.42:40002'
 
 
     async def api(self, opt, t=0):
